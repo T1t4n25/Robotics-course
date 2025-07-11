@@ -1,5 +1,3 @@
-# Robotics-course
-
 # Robotics Curriculum – Full Roadmap
 
 ---
