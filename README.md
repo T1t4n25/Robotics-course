@@ -182,6 +182,18 @@
 
 ## Phase 2 - ESP32, Wireless Control, and IoT Projects
 
+- Master wireless communication protocols like **Wi-Fi** and **Bluetooth** for remote control and data transfer. 
+    
+- Implement **IoT solutions** by logging sensor data to cloud platforms like **Firebase** and controlling devices via **Blynk**. 
+    
+- Integrate the **ESP32-CAM** for real-time video streaming and image processing, including **QR code detection**. 
+    
+- Understand and use **Serial** and **I2C** communication protocols to enable complex interactions between microcontrollers. 
+    
+- Develop the ability to build and debug a complete, interconnected system from scratch. 
+    
+- Finalize a **smart car project** with wireless control, sensor data logging, and an integrated camera feed. 
+- 
 1. **Session 1: WiFi Communication** 
     
     - Intro to online communication using microcontrollers
@@ -333,7 +345,17 @@
 ### Goal: Create a full robotics pipeline in simulation, then optionally extend to a physical robot arm.
 
 ---
-
+- Become proficient in the **Linux command line**, managing files, processes, and network settings. 
+    
+- Master the fundamentals of **ROS 2**, including the core **node-topic-message architecture**. 
+    
+- Create and simulate robots in 3D environments using **Gazebo** and model them with **URDF**. 
+    
+- Utilize advanced ROS 2 features like **services** and **custom messages** for complex, reusable robot actions. 
+    
+- Develop a full software pipeline in Python to programmatically control a robot arm in simulation. 
+    
+- Build and demonstrate a complete **robot arm project**, with the option to bridge the simulation code to physical hardware. 
 ### **Module 1: Linux Fundamentals (4 Sessions)**
 
   
