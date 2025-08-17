@@ -193,7 +193,7 @@
 - Develop the ability to build and debug a complete, interconnected system from scratch. 
     
 - Finalize a **smart car project** with wireless control, sensor data logging, and an integrated camera feed. 
-- 
+
 1. **Session 1: WiFi Communication** 
     
     - Intro to online communication using microcontrollers
