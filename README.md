@@ -1,6 +1,5 @@
-# Robotics Curriculum – Full Roadmap
 
----
+# Robotics Curriculum – Full Roadmap
 
 ## Phase 1 - Programming & Circuits Basics
 - **C++ Programming:** Master core programming concepts in C++ including data types, control flow, functions, and basic **Object-Oriented Programming (OOP)**.
@@ -14,172 +13,252 @@
 - **Sensor Integration:** Connect and read data from common sensors (e.g., temperature, photoresistor) to make your projects interactive.
     
 - **Project-Based Learning:** Apply all skills to complete a comprehensive **smart home project**, integrating code and electronics.
-### **أساسيات البرمجة (4 أسابيع مع القليل من الـ problem solving)**
 
-1. **Session 1: C++ Basics & Manual Compilation** 🖥️
-    
-    - Introduction to the curriculum and essential tools to install.
-        
-    - The "Hello, World!" example in C++.
-        
-    - Using the `g++` compiler to build your code from the command line.
-        
-    - **Outcome:** Students will be able to write, compile, and run a simple C++ program using the `g++` compiler.
-        
-    - **Task:** Compile and run a basic "Hello, World!" program using g++.
-        
-2. **Session 2: Variables & Control Flow** 🧠
-    
-    - Variables, memory, and arithmetic operations (`%`, `/`, `*`, `-`, `+`).
-        
-    - Control statements (`if`, `switch`).
-        
-    - Loops.
-        
-    - Tiny challenge: FizzBuzz.
-        
-    - **Outcome:** Students will be able to use C++ variables, control statements (`if`, `switch`), and loops to solve simple logic problems.
-        
-    - **Task:** Write a program that prints a right-angled triangle pattern of `*` characters, where the number of rows is a user-defined variable.
-        
-3. **Session 3: Arrays & Functions** ✍️
-    
-    - Arrays.
-        
-    - Functions.
-        
-    - Basic pointers and pointer arithmetic.
-        
-    - **Outcome:** Students will be able to work with arrays, define custom functions, and use basic pointers to manipulate data.
-        
-    - **Task:** Create a function that takes an integer array and its size, then reverses the array in-place using pointers.
-        
-4. **Session 4: Structs & STL** 📚
-    
-    - `struct` data types.
-        
-    - Standard Template Library (**STL**) for math and data structures.
-        
-    - Basic algorithms: searching and sorting.
-        
-    - **Outcome:** Students will be able to create custom data structures with `structs` and use the Standard Template Library (STL) for common tasks like sorting.
-        
-    - **Task:** Define a `struct` named `Student` with members for name, ID, and GPA. Use `std::vector` to store multiple student records and sort them by GPA.
-        
-5. **Session 5: OOP & Problem Solving** 🚀
-    
-    - Object-Oriented Programming (**OOP**) basics.
-        
-    - Problem solving with real-life inspired examples.
-        
-    - **Outcome:** Students will be able to apply the fundamental principles of Object-Oriented Programming (OOP) to solve problems using classes and objects.
-        
-    - **Task:** Create a class named `BankAccount` with private members for balance and account number, and public methods for `deposit`, `withdraw`, and `get_balance`.
-        
 
+### Part A: C++ Programming (7 sessions)
+
+**Session 1: C++ Basics & Environment Setup**
+
+-   **Topics:**
+    
+    -   Introduction to the curriculum and essential tools to install (VS Code, g++ compiler).
+        
+    -   The "Hello, World!" example in C++.
+        
+    -   Using the g++ compiler to build your code from the command line.
+        
+-   **Outcome:** Students will be able to set up their development environment and compile and run a simple C++ program from the command line.
+    
+-   **Task:** Compile and run a basic "Hello, World!" program using g++.
+    
+
+**Session 2: Variables, Data Types & Basic Operations**
+
+-   **Topics:**
+    
+    -   Introduction to variables, memory, and different data types (e.g., `int`, `float`, `char`, `bool`).
+        
+    -   Arithmetic operations (`%`, `/`, `*`, `-`, `+`).
+        
+    -   Type casting and operator precedence.
+        
+-   **Outcome:** Students will understand different data types and be able to use them in simple mathematical expressions.
+    
+-   **Task:** Write a program that calculates the area and circumference of a circle given a radius, and practice converting between integer and floating-point types.
+    
+
+**Session 3: Control Flow & Loops**
+
+-   **Topics:**
+    
+    -   Conditional statements (`if`, `if-else`, `switch`).
+        
+    -   The `for`, `while`, and `do-while` loops.
+        
+    -   Loop control statements (`break`, `continue`).
+        
+-   **Outcome:** Students will be able to write programs that make decisions and perform repetitive tasks.
+    
+-   **Task:** Write a program that prints a right-angled triangle pattern of `*` characters, where the number of rows is a user-defined variable.
+    
+
+**Session 4: Functions & Scope**
+
+-   **Topics:**
+    
+    -   Defining and calling functions.
+        
+    -   Function parameters and return values.
+        
+    -   The concept of local vs. global scope.
+        
+    -   Function overloading.
+        
+-   **Outcome:** Students will be able to break down problems into reusable functions and understand variable scope.
+    
+-   **Task:** Create a function that takes an integer and returns `true` if it's a prime number, and `false` otherwise.
+    
+
+**Session 5: Pointers & Arrays**
+
+-   **Topics:**
+    
+    -   What a pointer is and why it's used.
+        
+    -   The `*` and `&` operators.
+        
+    -   Pointer arithmetic.
+        
+    -   Arrays and their relationship with pointers.
+        
+    -   Pointers to functions.
+        
+-   **Outcome:** Students will understand and be able to use pointers to manipulate data and work with arrays effectively.
+    
+-   **Task:** Create a function that takes an integer array and its size, then reverses the array in-place using pointers.
+    
+
+**Session 6: Structures & Introduction to OOP**
+
+-   **Topics:**
+    
+    -   The `struct` data type for creating custom data structures.
+        
+    -   The basic idea of **Object-Oriented Programming (OOP)**: classes and objects, encapsulation (public vs. private members).
+        
+-   **Outcome:** Students will be able to create their own data types with `structs` and understand the fundamental concept of a class.
+    
+-   **Task:** Define a `struct` named **Student** with members for name, ID, and GPA. Create and initialize an instance of this `struct`.
+    
+
+**Session 7: Classes, Objects & Problem Solving**
+
+-   **Topics:**
+    
+    -   The full concept of a class in C++.
+        
+    -   Constructors and destructors.
+        
+    -   Methods and member variables.
+        
+    -   Applying OOP to solve real-life inspired problems.
+        
+-   **Outcome:** Students will be able to apply the fundamental principles of OOP to solve problems using classes and objects.
+    
+-   **Task:** Create a class named **BankAccount** with private members for balance and account number, and public methods for `deposit`, `withdraw`, and `get_balance`.
+    
+
+----------
+
+### Part B: Electronic Circuits with Embedded Systems (7 sessions)
+
+**Session 8: Electronic Circuits Fundamentals**
+
+-   **Topics:**
+    
+    -   How electricity flows, electrons, and general safety.
+        
+    -   The core triumvirate of electronics: **voltage**, **current**, and **resistance**.
+        
+    -   Ohm's law (V=IR).
+        
+    -   Basic circuit analysis for series and parallel circuits.
+        
+-   **Outcome:** Students will understand fundamental electrical concepts, be able to read a schematic, and use a multimeter to measure voltage, current, and resistance.
+    
+-   **Task:** Build a simple series circuit with an LED and a resistor on a breadboard. Use a multimeter to measure the voltage drop across the LED and the resistor.
+    
+
+**Session 9: Introduction to Proteus Simulation Software**
+
+-   **Topics:**
+    
+    -   Introduction to **Proteus** as a powerful simulation tool for electronics.
+        
+    -   How to create a new project, place components (resistors, LEDs, buttons, virtual instruments like oscilloscopes).
+        
+    -   Simulating simple circuits and analyzing results.
+        
+-   **Outcome:** Students will be able to simulate a basic circuit in Proteus, test different component values, and visualize the circuit's behavior without building it physically.
+    
+-   **Task:** Simulate the series circuit from the previous session in Proteus. Use a virtual multimeter to verify Ohm's law and the voltage drops across the components.
+    
+
+**Session 10: Introduction to Microcontrollers & Power**
+
+-   **Topics:**
+    
+    -   Why we use microcontrollers.
+        
+    -   Introduction to the **STM32** architecture.
+        
+    -   The need for a specialized IDE for embedded systems (**PlatformIO** on VS Code).
+        
+    -   Powering microcontrollers from USB or batteries.
+        
+    -   The concept of a voltage regulator.
+        
+-   **Outcome:** Students will be able to set up their development environment with PlatformIO and safely power an STM32 board.
+    
+-   **Task:** Set up a basic PlatformIO project for the STM32. Power the board using a 9V battery and a simple voltage regulator circuit (e.g., LM7805).
+    
+
+**Session 11: Digital I/O (GPIO) & LEDs**
+
+-   **Topics:**
+    
+    -   What **GPIO** (General Purpose Input/Output) is and how it works.
+        
+    -   Configuring a pin for input vs. output.
+        
+    -   Writing a program to blink an LED.
+        
+    -   The difference between sinking and sourcing current.
+        
+-   **Outcome:** Students will be able to control an LED by writing a program that turns it on and off.
+    
+-   **Task:** Connect an LED to an STM32 pin and program it to turn on/off by controlling the pin in both sinking and sourcing modes. Add a button to a separate GPIO pin to control the LED.
+    
+
+**Session 12: Analog Signals & PWM**
+
+-   **Topics:**
+    
+    -   What an analog signal is.
+        
+    -   Using the **ADC** (Analog-to-Digital Converter) to read analog sensors.
+        
+    -   What **PWM** (Pulse Width Modulation) is and its uses (motor control, dimming LEDs).
+        
+    -   Using a potentiometer to control an LED's brightness via PWM.
+        
+-   **Outcome:** Students will be able to read data from an analog sensor and use PWM to control an output based on the sensor's values.
+    
+-   **Task:** Connect a photoresistor (light sensor) to an analog pin of the STM32. Read the sensor data and use it to control the brightness of an LED via a PWM pin.
+    
+
+**Session 13: Interfacing with Displays**
+
+-   **Topics:**
+    
+    -   Introduction to displays for embedded systems.
+        
+    -   Using **7-segment displays** and the concept of multiplexing.
+        
+    -   The **I2C** protocol for communication with components like **LCDs** and **OLEDs**.
+        
+-   **Outcome:** Students will be able to display dynamic data on both a 7-segment display and an LCD/OLED screen.
+    
+-   **Task:** Connect a small OLED screen (using I2C) and a photoresistor to the STM32. Program the board to display the current light level (in lux or an arbitrary value) on the screen.
+    
+
+**Session 14: Project-Based Learning & Support**
+
+-   **Topics:**
+    
+    -   The core project: building a smart home demo.
+        
+    -   Project management, debugging strategies, and collaborative problem-solving.
+        
+-   **Outcome:** Students will apply all the skills learned to complete a comprehensive project.
+    
+-   **Task:** Start building the smart home project, which should include an input (e.g., a button or sensor), processing (in the STM32), and an output (e.g., an LED, motor, or display).
+    
+
+**Session 15: Project Review & Upgrades**
+
+-   **Topics:**
+    
+    -   Final review of the finished projects.
+        
+    -   Each student presents their project's code and hardware.
+        
+    -   Discussion of project upgrades, potential improvements, and next steps in embedded systems.
+        
+-   **Outcome:** Students will have a completed, working smart home project and will be able to present its functionality and code.
+    
+-   **Task:** Present the finished smart home project to the class. Review a classmate's project and suggest a specific optimization or a new feature they could add.
 ---
-
-### **أساسيات دوائر كهربية مع STM32 وبرمجتها**
-
-6. **Session 6: Electricity Basics & Introducing the Microcontroller IDE** ⚡
-    
-    - How electricity flows, electrons, and general safety.
-        
-    - Voltage, current, resistance, and power – concepts and calculations.
-        
-    - Introduction to PlatformIO on VSCode: Why we need a specialized IDE for embedded systems, and how to set up a basic project.
-        
-    - **Outcome:** Students will understand fundamental electrical concepts and be able to set up their development environment with **PlatformIO** in VSCode.
-        
-    - **Task:** Use a breadboard to build a simple series circuit with two resistors and an LED with a button and calculate the resistance.
-        
-    - **Problem-Solving Task:** Write a C++ program that calculates the current and power given voltage and resistance, handling potential errors.
-        
-7. **Session 7: Powering Microcontrollers** 🔋
-    
-    - Batteries, charging, discharging.
-        
-    - BMS and voltage regulators.
-        
-    - Powering Arduino/STM32/ESP32 from USB or batteries.
-        
-    - **Outcome:** Students will be able to safely power an **STM32** using a battery and a simple voltage regulator circuit.
-        
-    - **Task:** Power an STM32 using a 9V battery and a simple voltage regulator circuit.
-        
-    - **Problem-Solving Task:** Write a C++ program that simulates a battery management system (BMS) with charging/discharging logic.
-        
-8. **Session 8: Microcontroller Power & LEDs** ⚙️
-    
-    - Microcontroller power limitations.
-        
-    - LED connection types: sinking vs sourcing.
-        
-    - Powering motors, sensors, and servos (high-level overview).
-        
-    - **Outcome:** Students will be able to connect and program an LED to an **STM32** pin, understanding the difference between sinking and sourcing current.
-        
-    - **Task:** Connect an LED to an STM32 pin and program it to turn on/off by controlling the pin in both sinking and sourcing modes.
-        
-    - **Problem-Solving Task:** Write a C++ function that takes a motor speed and direction and outputs the correct signals.
-        
-9. **Session 9: GPIO, PWM & ADC** 📈
-    
-    - **GPIO** and pin modes.
-        
-    - **PWM** signals and their uses.
-        
-    - **ADC** and analog sensors.
-        
-    - Using temperature/humidity sensors and photoresistors.
-        
-    - **Outcome:** Students will be able to read data from an analog sensor and use **PWM** to control an output based on the sensor's values.
-        
-    - **Task:** Connect a temperature sensor to an analog pin of the STM32. Read the sensor data, convert it to Celsius, and display the result on the serial monitor.
-        
-    - **Problem-Solving Task:** Write a C++ function that uses a temperature value to calculate a PWM duty cycle for a cooling fan.
-        
-10. **Session 10: Displaying Data** 📊
-    
-    - **7-segment displays** and multiplexing.
-        
-    - **LCDs**, **OLEDs**, and **I2C** protocol basics.
-        
-    - Project assignment: build a smart home demo.
-        
-    - **Outcome:** Students will be able to display dynamic data on both a **7-segment display** and an **LCD/OLED** screen.
-        
-    - **Task:** Connect a 4-digit 7-segment display to the STM32 and program it to display a countdown from 9999 to 0.
-        
-    - **Problem-Solving Task:** Create a C++ program that converts an integer (e.g., a sensor reading) into an array of four digits for display on a 7-segment.
-        
-11. **Session 11: Project Support** 🤝
-    
-    - Project support and debugging.
-        
-    - Q&A session.
-        
-    - **Outcome:** Students will have debugged their smart home project and implemented at least one additional feature.
-        
-    - **Task:** Implement at least one new feature in your smart home project (e.g., adding an LCD screen to display the status or a button to manually toggle a device).
-        
-    - **Problem-Solving Task:** Write a C++ program that simulates the logic of your project's main control system.
-        
-12. **Session 12: Project Review** ✅
-    
-    - Reviewing finished projects.
-        
-    - Project upgrades and integration ideas.
-        
-    - Helping remaining students finish.
-        
-    - **Outcome:** Students will have a completed, working smart home project and will be able to present its code, hardware, and functionality.
-        
-    - **Task:** Present your finished smart home project.
-        
-    - **Problem-Solving Task:** Review another student's project code and suggest a specific optimization for either logic or memory usage.
----
-
 ## Phase 2 - ESP32, Wireless Control, and IoT Projects
 
 - Master wireless communication protocols like **Wi-Fi** and **Bluetooth** for remote control and data transfer. 
