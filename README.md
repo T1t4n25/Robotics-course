@@ -269,6 +269,7 @@ Use a pointer with a function to change a value by reference.
 - gain knowledge of the tool-chain used to make an executable
 
 **Outcome:** Students will be able to diagnose errors and where it originates from, gaining more skills to analyse errors and how to evade them.
+
 **Task:** Try to replicate all the error types intentionally and mention where in the tool-chain it came from.
 
 ### VSCode Installation and g++ (Must be seen before programming)
@@ -282,6 +283,7 @@ Use a pointer with a function to change a value by reference.
 - Explain Extensions System and install *code runner* extension
 
 **Outcome:** Having the ability to use a better tools that is VSCode in programming, saving time in writing code and debugging.
+
 **Task:** None.
 
 
@@ -297,5 +299,6 @@ Use a pointer with a function to change a value by reference.
 - Explaining the config file
 
 **Outcome:** Coding faster in VSCode with auto completion and AI when needed and having more control with a more fast, advanced tool than Arduino IDE.
+
 **Task:** Try to replicate a task inside of VSCode instead of Arduino IDE.
 
