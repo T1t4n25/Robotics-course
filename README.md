@@ -295,6 +295,7 @@ Use a pointer with a function to change a value by reference.
 - Folders explanation 
 	
 - Explaining the config file
+
 **Outcome:** Coding faster in VSCode with auto completion and AI when needed and having more control with a more fast, advanced tool than Arduino IDE.
 **Task:** Try to replicate a task inside of VSCode instead of Arduino IDE.
 
