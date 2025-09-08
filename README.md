@@ -3,6 +3,20 @@
 From zero background → building a **line-following robot**.
 
 ---
+By the end of this phase, students will be able to:
+
+1. **Understand electronics fundamentals** – confidently work with voltage, current, resistance, and safely wire real circuits without burning components.
+    
+2. **Program in C++ with Arduino** – write, debug, and structure code using variables, conditions, loops, functions, and basic pointers understanding.
+    
+3. **Interface with hardware components** – connect and control LEDs, buttons, motors, displays (LCD), and sensors (light, temperature, ultrasonic, IR).
+    
+4. **Build automation systems** – design small smart-home style projects with relays, environmental sensors, and Bluetooth phone control.
+    
+5. **Gain hands-on robotics experience** – understand how sensors and motors combine to make decisions, and apply this knowledge to a real robot.
+    
+6. **Complete a milestone final project** – design, build, and present a fully functional **line-following robot with Bluetooth manual control**, demonstrating mastery of both electronics and programming.
+---
 
 ## **Part A: Foundations of Circuits & Programming (6 Sessions)**
 
