@@ -256,3 +256,45 @@ Use a pointer with a function to change a value by reference.
 **Outcome:** Students complete a full robotic system showcasing all skills.  
 **Task:** Build and program a two-motor robot that follows a curved track and recovers when off-line.  
 **Final Milestone Project:** _Line Following Robot_.
+
+
+# Bonus/Recorded Sessions (1 is mandatory the others are optional)
+
+### **Error types and the tool-chain** (More detail for the seekers of knowledge)
+
+**Topics:**
+
+- Knowing different types of errors 
+	
+- gain knowledge of the tool-chain used to make an executable
+
+**Outcome:** Students will be able to diagnose errors and where it originates from, gaining more skills to analyse errors and how to evade them.
+**Task:** Try to replicate all the error types intentionally and mention where in the tool-chain it came from.
+
+### VSCode Installation and g++ (Must be seen before programming)
+**Topics:**
+- Installing g++ and making sure it works
+	
+- Installing VSCode 
+	
+- Explain VSCode and it's customization options
+	
+- Explain Extensions System and install *code runner* extension
+
+**Outcome:** Having the ability to use a better tools that is VSCode in programming, saving time in writing code and debugging.
+**Task:** None.
+
+
+### PlatformIO for programming Arduino (Optional tool)
+**Topics:**
+
+- Installing and Explanation of PlatformIO Extension 
+	
+- How to make an Arduino project, choosing the board and framework
+	
+- Folders explanation 
+	
+- Explaining the config file
+**Outcome:** Coding faster in VSCode with auto completion and AI when needed and having more control with a more fast, advanced tool than Arduino IDE.
+**Task:** Try to replicate a task inside of VSCode instead of Arduino IDE.
+
