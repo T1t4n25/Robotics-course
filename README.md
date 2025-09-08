@@ -249,18 +249,19 @@ Use a pointer with a function to change a value by reference.
 - Refining line-following algorithm
     
 - Handling curves & recovery if robot drifts
+	
+- Adding Bluetooth control support from phone controller
     
 - Project presentation & peer feedback
     
 
 **Outcome:** Students complete a full robotic system showcasing all skills.  
 **Task:** Build and program a two-motor robot that follows a curved track and recovers when off-line.  
-**Final Milestone Project:** _Line Following Robot_.
+**Final Milestone Project:** _Line Following Robot_. with manual driving mode with Bluetooth and phone.
 
+# Bonus Sessions
 
-# Bonus/Recorded Sessions (1 is mandatory the others are optional)
-
-### **Error types and the tool-chain** (More detail for the seekers of knowledge)
+### **Error types and the tool-chain**
 
 **Topics:**
 
@@ -269,10 +270,9 @@ Use a pointer with a function to change a value by reference.
 - gain knowledge of the tool-chain used to make an executable
 
 **Outcome:** Students will be able to diagnose errors and where it originates from, gaining more skills to analyse errors and how to evade them.
-
 **Task:** Try to replicate all the error types intentionally and mention where in the tool-chain it came from.
 
-### VSCode Installation and g++ (Must be seen before programming)
+### VSCode Installation and g++
 **Topics:**
 - Installing g++ and making sure it works
 	
@@ -287,7 +287,7 @@ Use a pointer with a function to change a value by reference.
 **Task:** None.
 
 
-### PlatformIO for programming Arduino (Optional tool)
+### PlatformIO for programming Arduino
 **Topics:**
 
 - Installing and Explanation of PlatformIO Extension 
@@ -301,4 +301,3 @@ Use a pointer with a function to change a value by reference.
 **Outcome:** Coding faster in VSCode with auto completion and AI when needed and having more control with a more fast, advanced tool than Arduino IDE.
 
 **Task:** Try to replicate a task inside of VSCode instead of Arduino IDE.
-
