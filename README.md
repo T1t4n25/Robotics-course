@@ -82,7 +82,8 @@ By the end of this phase, students will be able to:
 - PWM basics for dimming LEDs
     
 - `analogWrite` function
-    
+	
+- using `millis()`
 
 **Outcome:** Students can create repetitive behavior and control intensity.  
 **Task:** Fade an LED brightness up and down smoothly with loops.
@@ -122,9 +123,33 @@ By the end of this phase, students will be able to:
 
 ---
 
+### **Session 7: Arrays & Multi-Sensor Handling** 
+
+**Topics:**
+
+- Arrays in C++ (declaring, accessing, iterating).
+    
+- Storing multiple sensor readings.
+    
+- Using loops with arrays.
+    
+- Why arrays matter in robotics (multiple IR sensors, temperature logs).
+    
+
+**Outcome:**  
+Students can store and process multiple values efficiently.
+
+**Task:**
+
+- Record 10 temperature readings in an array, calculate average, and display on Serial Monitor.
+    
+- Bonus: Read 2 IR sensors into an array and print their values continuously.
+
+---
+
 ## **Part B: Expanding Arduino Control (5 Sessions)**
 
-### **Session 7: Libraries, Servos & Memory Basics**
+### **Session 8: Libraries, Servos & Memory Basics**
 
 **Topics:**
 
@@ -141,7 +166,7 @@ Use a pointer with a function to change a value by reference.
 
 ---
 
-### **Session 8: LCD Displays**
+### **Session 9: LCD Displays**
 
 **Topics:**
 
@@ -157,7 +182,7 @@ Use a pointer with a function to change a value by reference.
 
 ---
 
-### **Session 9: Temperature & Environment Sensors**
+### **Session 10: Temperature & Environment Sensors**
 
 **Topics:**
 
@@ -173,7 +198,7 @@ Use a pointer with a function to change a value by reference.
 
 ---
 
-### **Session 10: Distance Sensing & Decisions**
+### **Session 11: Distance Sensing & Decisions**
 
 **Topics:**
 
@@ -190,11 +215,11 @@ Use a pointer with a function to change a value by reference.
 
 ---
 
-### **Session 11: Automation & Bluetooth Control**
+### **Session 12: Automation & Bluetooth Control**
 
 **Topics:**
 
-- Relays as electronic switches
+- Relays and transistors as electronic switches
     
 - Driving larger loads (lamps, fans)
     
@@ -208,7 +233,7 @@ Use a pointer with a function to change a value by reference.
 
 ## **Part C: Robotics & Final Project (4 Sessions)**
 
-### **Session 12: IR Sensors & Line Detection**
+### **Session 13: IR Sensors & Line Detection**
 
 **Topics:**
 
@@ -224,7 +249,7 @@ Use a pointer with a function to change a value by reference.
 
 ---
 
-### **Session 13: Stepper Motors & Precision Control**
+### **Session 14: Stepper Motors & Precision Control**
 
 **Topics:**
 
@@ -240,7 +265,7 @@ Use a pointer with a function to change a value by reference.
 
 ---
 
-### **Session 14: Robot Integration & Testing**
+### **Session 15: Robot Integration & Testing**
 
 **Topics:**
 
@@ -256,7 +281,7 @@ Use a pointer with a function to change a value by reference.
 
 ---
 
-### **Session 15: Final Project – Line Following Robot**
+### **Session 16: Final Project – Line Following Robot**
 
 **Topics:**
 
@@ -285,6 +310,16 @@ Use a pointer with a function to change a value by reference.
 
 **Outcome:** Students will be able to diagnose errors and where it originates from, gaining more skills to analyse errors and how to evade them.
 **Task:** Try to replicate all the error types intentionally and mention where in the tool-chain it came from.
+
+### Arduino IDE Installation and g++
+**Topics:**
+- What is an IDE, and why Arduino IDE
+	
+- Installing Arduino IDE 
+
+**Outcome:** Having Arduino IDE ready on your computer before programming lessons
+
+**Task:** None.
 
 ### VSCode Installation and g++
 **Topics:**
